@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" /> -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M122.6 46.3c-7.8-11.7-22.4-17-35.9-12.9S64 49.9 64 64V256H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H64V448c0 17.7 14.3 32 32 32s32-14.3 32-32V320H228.2l97.2 145.8c7.8 11.7 22.4 17 35.9 12.9s22.7-16.5 22.7-30.6V320h32c17.7 0 32-14.3 32-32s-14.3-32-32-32H384V64c0-17.7-14.3-32-32-32s-32 14.3-32 32V256H262.5L122.6 46.3zM305.1 320H320v22.3L305.1 320zM185.5 256H128V169.7L185.5 256z"/></svg>
+  
+    
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search">
+      <i class="fa fa-search" id="search-icon"></i>
+    </div>
+    
+    <div class="controls">
+      <div class="notification-bell">
+        <a href="#"><img src="images/icons-SVG/notification-bell.svg" class="icon" alt="notification bell"></a>
+      </div>
+  
+      <div class="profile-pic">
+        <img src="images/pics/profile-pic.jpg"  class="profile-pic" alt="profile pic">
+      </div>
+    </div>
+    
+    
+  </header>
+
+  <div class="container">
+
+    
+    <div class="sidebar">
+
+      <div class="sidebar-item">
+        <img src="/images/icons-SVG/home.svg" class="icon" alt="home icon">
+        <i>Home</i>
+      </div>
+
+      <div class="sidebar-item"> 
+        <img src="/images/icons-SVG/profile-circle.svg" class="icon" alt="profile">
+        <i>Profile</i>
+      </div>
+
+      <div class="sidebar-item">
+        <img src="/images/icons-SVG/history2.svg" class="icon" alt="profile">
+        <i>History</i>
+      </div>
+
+      <div class="sidebar-item">
+        <img src="/images/icons-SVG/message.svg" class="icon" alt="message">
+        <i>Message</i>
+      </div>
+
+      <div class="sidebar-item">
+        <img src="/images/icons-SVG/settings3.svg" class="icon" alt="settings">
+        <i>Settings</i>
+      </div>
+
+      <div class="sidebar-item">
+        <img src="/images/icons-SVG/calendar.svg" class="icon" alt="profile">
+        <i>Calendar</i>
+      </div>
+
+    </div>
+
+      
+
+      <div class="projects">
+
+        <div class="title">
+          <h3>Your Categories</h3>
+          <h4>Give every penny a job and enjoy guilt-free spending and effortless saving with a friendly, flexible method for managing your finances.</h4>
+          <div class="newEvent">
+            <i><b>+</b> Add New Category</i>
+            <div class="newCategory hide">
+
+              <div class="category-description">
+                <label for="category-name">Please enter category name</label>
+                <input type="text" id="category-name" class="category-description-name">
+              </div>
+
+              <div class="category-description">
+                <label for="category-description">Enter a category description <i>(optional)</i></label>
+                <input type="text" class="category-description-text">
+              </div>
+
+              <div class="category-description">
+                <label for="category-description">Enter an image <i>(optional)</i></label>
+                <input type="file" class="category-description-image">
+              </div>
+
+              <div class="category-description">
+                <button class="categoryAdd">Add The New Category</button>
+              </div>
+              
+
+            </div>
+            
+            
+          </div>
+        </div>
+
+        <div class="project-container">
+
+          <div class="project frequent">
+            <img src="images/pics/calculator.svg" class="project-img" alt="calculator">
+            <div class="intro">
+              <h1>Frequent</h1>
+              <p>This your frequent and monthly expenses, including food, transportation, rent, cell phone, entertainment and pet food</p>
+              <div class="buttons">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg>
+              </div>
+            </div>
+            
+          </div>
+
+          
+
+
+  
+        </div>
+
+
+      </div>
+        
+
+
+          
+
+  <div class="footer">
+    Copyright © <a href="https://github.com/Nourtrying"> NourTrying </a>
+  </div>
+  
+  
+</body>
+</html>

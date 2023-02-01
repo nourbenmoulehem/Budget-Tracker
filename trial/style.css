@@ -1,0 +1,24 @@
+/* (A) CONTAINER */
+.collapse, .collapse ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+/* (B) LIST ITEMS */
+.collapse li { padding: 10px; }
+
+/* (C) TOGGLE */
+.toggle {
+  padding: 10px;
+  cursor: pointer;
+}
+.toggle::before {
+  display: inline-block;
+  width: 15px;
+  content: "+";
+}
+.toggle.show::before { content: "-"; }
+
+/* (D) SHOW/HIDE */
+.collapse ul { display: none; }
+.toggle.show + ul { display: block; }
