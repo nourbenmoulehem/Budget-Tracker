@@ -86,7 +86,7 @@ btnCategoryAdd.addEventListener('click', () =>{
 
   projectContainer.appendChild(project)
 
-  project.addEventListener("click", function() {
+  image.addEventListener("click", function() {
   window.location.assign("cataegoryGroup/event.html");
 });
    
