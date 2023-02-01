@@ -1,7 +1,7 @@
 # Budget-Tracker
 
 
-IThis is my idea of a budget tracker.
+This is my idea of a budget tracker.
 
 At first I've only only implemented HTML, CSS and JS. and in the future I'm willing to develop the idea with using more technologies and adding more functionalities.
 
