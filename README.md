@@ -1,7 +1,13 @@
 # Budget-Tracker
 
 
-In this project I will demonstrate my css skills mainly using grid. 
+IThis is my idea of a budget tracker.
+
+At first I've only only implemented HTML, CSS and JS. and in the future I'm willing to develop the idea with using more technologies and adding more functionalities.
+
+The idea of this project is a financial tracker, and the idea got inspired from a successful budget app called YNAB. The idea is to give every penny and job, fix your budget specify your priorities.
+
+
 
 Color palette: https://www.color-hex.com/color-palette/47605
 
